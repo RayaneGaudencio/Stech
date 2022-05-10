@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-color: #ff40b633;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+#logo {
+    height: 50px;
+}
+
+.itens-cabecalho {
+    color: white;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.itens-cabecalho:hover {
+    color: rgb(156, 80, 167);
+}
+
+#caixa-de-pesquisa {
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    outline: 0;
+}
+
+i {
+    color: white;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+i:hover {
+    color: #FF40B5;
+}
+
+main {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.3fr 0.8fr 0.3fr 0.3fr 0.3fr;
+    margin-top: 10px;
+}
+
+h1, h3, a, p {
+    margin: 10px;
+}
+
+section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+section:hover{
+    color: white;
+    background-color: black;
+    background-image: linear-gradient(to top, #48376928, #582ab52a, #6931d834, #a27dec36);
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
+}
+
+
+span {
+    color: #FF40B5;
+    cursor: pointer;
+}
+
+.botao-ler-mais {
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.botao-ler-mais:hover {
+    background-color: #483769;
+    border-radius: 5px;
+}
+
+
+.section-1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.topicos {
+    text-decoration: none;
+    color: rgb(133, 25, 133);
+}
+
+.topicos:hover {
+    color: white;
+}
+
+.section-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.section-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.section-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.section-5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#botao-entrar-forumtech {
+    background-color: #483769;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    width: 50px;
+}
+
+#botao-entrar-forumtech:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
